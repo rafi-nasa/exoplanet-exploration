@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Filters.tsx","./src/components/MilkyWay.tsx","./src/components/StarSystem.tsx","./src/utilities/types.ts","./src/utilities/useStarData.ts"],"version":"5.6.2"}

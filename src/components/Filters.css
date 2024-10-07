@@ -1,0 +1,97 @@
+.main-filter-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    position:absolute;
+    right: 0;
+    left: min(66.66vw, 100vh);
+    top: 0;
+
+    min-height: min(66.66vw, 100vh);
+
+    margin-left: 10px;
+    margin-right: 5px;
+
+    color: white;
+    font-size: 14px;
+
+}
+
+
+.discovery-method{
+    display: flex;
+    flex-flow: column;
+    flex-grow: 0;
+}
+
+.discovery-facility{
+    display: flex;
+    flex-flow: column;
+}
+
+.labelita{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.picker-input{
+
+    border: 2px solid #444;
+    border-radius: 5px; 
+    background-color: #222;
+    color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (min-width: 1100px){
+    .discovery-method{
+        display: flex;
+        flex-flow: column;
+        flex-grow: 0;
+    
+        background-color: rgba(34, 34, 34, 0.8);
+        border-radius: 8px;
+        padding: 5px;
+        margin: 0px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+    
+    .discovery-facility{
+        display: flex;
+        flex-flow: column;
+    
+        background-color: rgba(34, 34, 34, 0.8);
+        border-radius: 8px;
+        padding: 5px 10px 10px 10px;
+        margin: 0px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+    
+    .labelita{
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .picker-input{
+        margin: 0px 5px;
+    
+        border: 2px solid #444;
+        border-radius: 5px; 
+        background-color: #222;
+        color: #fff;
+        font-size: 16px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .range-inputs{
+    
+        background-color: rgba(34, 34, 34, 0.8);
+        border-radius: 8px;
+        padding: 5px;
+        margin: 5px 0;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+}

@@ -1,0 +1,19 @@
+.star-system{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 2px;
+    height: 2px;
+    background-color: yellowgreen;
+
+    color: white;
+    font-size: 5px;
+}
