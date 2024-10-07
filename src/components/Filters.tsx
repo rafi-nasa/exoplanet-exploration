@@ -96,7 +96,6 @@ const Filters = ({filterState, setFilterState}: {filterState: filterType,
                 <select
                     value={filterState.discoverymethod}
                     onChange={(e) => {
-                        console.log((e.target as HTMLSelectElement).value)
                         setFilterState(
                             {...filterState,
                                 discoverymethod: (e.target as HTMLSelectElement).value}
@@ -112,7 +111,6 @@ const Filters = ({filterState, setFilterState}: {filterState: filterType,
                 <select
                     value={filterState.disc_facility}
                     onChange={(e) => {
-                        console.log((e.target as HTMLSelectElement).value)
                         setFilterState(
                             {...filterState,
                                 disc_facility: (e.target as HTMLSelectElement).value}
